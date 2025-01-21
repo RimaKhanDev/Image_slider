@@ -1,0 +1,113 @@
+/*All common css start*/
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+ul.ol{
+    list-style-type: none;
+}
+.container{
+    width: 1320px;
+    margin: 0 auto;
+    display: flex;
+}
+
+/*All common css end*/
+/* header part start */
+#headerpart{
+    width: 100%;
+    padding: 25px 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+.container{
+
+}
+.logo{
+width: 30%;
+display:flex ;
+
+}
+.logo img{
+    width: 60px;
+   height: 60px;
+}
+.logo p{
+    color: white;
+    font-size: medium;
+
+}
+
+.menu{
+    width:70%;
+    display: flex;
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a{
+   color: wheat; 
+   text-transform: uppercase;
+   line-height: 80px;
+   font-size: 16px;
+   font-weight: 400px;
+   text-decoration: none;
+   padding: 0 15px;
+}
+.buttons{
+    margin-left: 30px;
+    display: flex;
+
+}
+.buttons a {
+    background: #eede03;
+    color: #fff;
+    height: 43px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+/* header part end */
+/* project part start */
+
+/* project part end */
+#projectpart{
+    height: 400px;
+    width: 1320px;
+    position: relative;
+    margin: 0 auto;
+}
+.container{
+    display: flex;
+}
+.slider{
+
+}
+.slider_one{
+    background: url(../images/slider\ one.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    width: 1320px;
+}
+.slider_two{
+    background: url(../images/slider\ two.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    width: 1320px;
+
+}
+.slider_three{
+    background: url(../images/slider\ three.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    width: 1320px;
+
+}
