@@ -2,78 +2,550 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Image slider</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="stylesheet" href="css/all.min.css">
-  <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>Churce</title>
 
-  <link rel="stylesheet" href="css/slick.css">
+    <!-- google font start  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Chivo:wght@100..900&
+    family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&
+    family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&
+    family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Paprika&family=Pop
+    pins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!-- google font end  -->
 
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/media.css">
+
+    <link rel="stylesheet" href="css/all.min.css">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="css/slick.css">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="css/media.css">
+
 </head>
 
 <body>
-  <!-- header part start -->
-  <section id="headerpart">
-    <div class="container">
-      <div class="logo">
-        <img src="images/images01.jpg" alt="">
-        <p>MOSQUE BEAUTY</p>
 
-      </div>
-      <div class="menu">
-        <ul>
-          <li><a href="#">home</a></li>
-          <li><a href="#">pages</a></li>
-          <li><a href="#">sermons</a></li>
-          <li><a href="#">event</a></li>
-          <li><a href="#">blog</a></li>
-          <li><a href="#">gellery</a></li>
-          <li><a href="#">contac us</a></li>
-        </ul>
 
-       <div class="buttons">
-        <a href="#">donate</a>
-       </div>
-      </div>
-     
+    <section id="header">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand d-flex" href="#">
+                    <img src="images/images01.png" alt="images01.png">
+                    
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#">Pages</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#">Events</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#">Contact us</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <button class="navbtn" type="submit">Donate</button>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </section>
+
+    <!-- ====  Hero part start ==== -->
+    <div class="slider">
+        <section id="hero">
+            <div class="heroverly">
+                <div class="container">
+
+                    <h1 class="herohead">For many Christians, the Bible is a source of comfort and guidance through all seasons of life</h1>
+                    <p class="herotxt">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut
+                        labore
+                        et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas
+                    </p>
+                    <div class="timer">
+                        <div class="date">
+                            <span class="times" id="date">10</span>
+                            <p class="timetxt">Days</p>
+                        </div>
+                        <div class="date">
+                            <span class="times" id="hours">10</span>
+                            <p class="timetxt">Hours</p>
+                        </div>
+                        <div class="date">
+                            <span class="times" id="minutes">10</span>
+                            <p class="timetxt">min</p>
+                        </div>
+                        <div class="date">
+                            <span class="times" id="seconds">10</span>
+                            <p class="timetxt">Sec</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
     </div>
+    <!-- ====  Hero part end ==== -->
 
-  </section>
-<!-- header part end -->
- <!-- project part start -->
-  <section id="projectpart">
-    <div class="container">
-      <div class="slider">
-        <div class="slider_one"></div>
-        <div class="slider_two "></div>
-        <div class="slider_three"></div>
-        <div class="slider_four"></div>
-        <div class="slider_five"></div>
-        <div class="slider_six"></div>
-        <div class="slider_saven"></div>
-        <div class="slider_eight"></div>
-        <div class="slider_nine"></div>
-      </div>
-      <button class="prev" onclick="prevSlide()">&#10094;</button>
-        <button class="next" onclick="nextSlide()">&#10095;</button>
-    </div>
-  </section>
-<!-- project part end  -->
-  
+    <!-- ==== about part start ==== -->
+    <section id="aboutPart">
+        <div class="aboutflex">
+            <div class="aboutImage">
+                <img src="images/images05.jpg" alt="images05.jpg">
+            </div>
+            <div class="aboutTxt">
+                <h2 class="aboutHead">Discover the Beauty and Serenity of Bible</h2>
+                <p class="aboutDesc">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut
+                    labore
+                    et dolore magna aliqua.
+                </p>
+                <p class="aboutSecDes">
+                    Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas
+                    accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+                    eiusmod tempor incididunt ut labore
+                </p>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ==== about part end ==== -->
+
+    <!-- ====  InfoPart part start ==== -->
+    <section id="InfoPart">
+        <div class="infoPartoverly">
+            <div class="container">
+                <div class="InfoTxt">
+                    <div class="infotxt">
+                        <h2 class="infoHead">Stay Updated with Our Upcoming Mosque Events and Community Gatherings
+                        </h2>
+                        <p class="infoDesc">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor
+                            incididunt ut
+                            labore
+                            et dolore magna aliqua.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="infocards">
+                    <a href="#">
+                        <div class="card">
+                            <i class="fa-regular fa-bell"></i>
+                            <p>Daily Paryers</p>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="card">
+                            <i class="fa-solid fa-book-quran"></i>
+                            <p>Teaching </p>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="card">
+                            <i class="fa-solid fa-mosque"></i>
+                            <p> SERMONS</p>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="card">
+                            <i class="fas fa-user-friends"></i>
+                            <p>Wedding</p>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="card">
+                            <i class="fa-solid fa-calendar-days"></i>
+                            <p> Events</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ====  InfoPart part end ==== -->
+
+    <!-- ==== Who part start ==== -->
+    <section id="whoPart">
+        <div class="container">
+            <div class="whoheader">
+                <h3>Who Are We</h3>
+                <img src="images/headingStripe.png" alt="headingStripe.png ">
+                <p>
+                    We are a community dedicated to showcasing the beauty and serenity of mosques around the world.
+                </p>
+            </div>
+            <div class="whoDesc">
+
+                <div class="whoDesLeft">
+                    <h3>Lorem ipsum dolor sit amet.</h3>
+                    <p>
+                        We aim to foster a deeper understanding and appreciation of Islamic architecture and culture
+                        through our events, educational programs, and community initiatives.
+                    </p>
+                    <div class="whoLeftBtn">
+                        <a href="#"><i> Read More</i></a>
+                        <i class="fa-solid fa-right-long"></i>
+                    </div>
+                    <img src="images/tasbih (2).jpg" alt="tasbih (2).jpg">
+                </div>
+                <div class="whoDesRight">
+                    <img src="images/images07.jpg" alt="images07.jpg">
+
+                    <h3>Lorem ipsum dolor sit amet.</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, fuga!
+                    </p>
+                    <div class="whoRightBtn">
+                        <a href="#"><i> Read More</i></a>
+                        <i class="fa-solid fa-right-long"></i>
+                    </div>
+                </div>
+
+                <!-- counter partt  -->
+                <div class="middlecounter">
+                    <div class="middleSqr">
+                        <h2>1/4</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ==== Who part end ==== -->
+
+    <!-- ====  Kutbah part start ==== -->
+    <section id="Kutbahpart">
+        <div class="KutbahHeader">
+            <h3>letest sermon</h3>
+            <img src="images/headingStripe.png" alt="headingStripe.png ">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, odit?
+            </p>
+        </div>
+        <div class="khutbahInf">
+
+            <div class="kuthbahInfoone">
+                <div class="kuthbahRightInfo">
+                    <h3>Lorem ipsum dolor sit amet.</h3>
+                    <div class="kutbahDetails">
+                        <div class="kutbahSpeaker">
+                            <p>Speacker : <span>Dr. lll </span></p>
+                        </div>
+
+                        <div class="kuthbahDate">
+                            <p>Date : 03-01-2025</p>
+                        </div>
+
+                        <div class="khutbahMedia">
+                            <i class="fa-solid fa-film"></i>
+                            <i class="fa-solid fa-headphones-simple"></i>
+                            <i class="fa-solid fa-cloud-arrow-down"></i>
+                            <i class="fa-regular fa-file-pdf"></i>
+                        </div>
+                    </div>
+                    <p class="kuthbahRightDesc">
+                       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis, esse officiis cumque voluptates nesciunt neque quae magni saepe numquam. Dolorum magnam est praesentium consequuntur iusto molestias natus distinctio illo facere!
+                    </p>
+
+                    <div class="kuthbahRightBtn">
+                        <a href="#"> Read More</a>
+                        <i class="fa-solid fa-right-long "></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="kuthbahInfotwo">
+                <div class="kuthbahRightInfo">
+                    <h3>Lorem ipsum dolor sit amet.</h3>
+                    <div class="kutbahDetails">
+                        <div class="kutbahSpeaker">
+                            <p>Speaker : <span>Sk.kkkk</span></p>
+                        </div>
+
+                        <div class="kuthbahDate">
+                            <p>Date : 03-01-2025</p>
+                        </div>
+
+                        <div class="khutbahMedia">
+                            <i class="fa-solid fa-film"></i>
+                            <i class="fa-solid fa-headphones-simple"></i>
+                            <i class="fa-solid fa-cloud-arrow-down"></i>
+                            <i class="fa-regular fa-file-pdf"></i>
+                        </div>
+                    </div>
+                    <p class="kuthbahRightDesc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus maiores suscipit quam eius, quasi excepturi!
+                    </p>
+
+                    <div class="kuthbahRightBtn">
+                        <a href="#"> Read More</a>
+                        <i class="fa-solid fa-right-long "></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- ====  Kutbah part end ==== -->
+
+    <!-- ====  News part start ==== -->
+    <section id="newsPart">
+        <div class="container">
+            <div class="newsHeader">
+                <h3>Latest News</h3>
+                <img src="images/headingStripe.png" alt="headingStripe.png ">
+                <p>
+                    Stay informed with the latest updates and news from our community, including events, announcements,
+                    and more.
+                </p>
+            </div>
+
+            <div class="newsTop">
+                <div class="newTopImg">
+                    <img src="images/images05.jpg" alt="images05.jpg">
+                </div>
+
+                <div class="newsRight">
+                    <div class="postDate">
+                        <div class="newsDate">
+                            <i class="fa-solid fa-calendar-days"></i>
+                            <p>Posted 18 Dec 2025</p>
+                        </div>
+                        <div class="newsAdmin">
+                            <i class="fa-solid fa-user"></i>
+                            <p>Posted By : <span>Admin</span></p>
+                        </div>
+                    </div>
+                    <h3>Lorem ipsum dolor sit amet.</h3>
+                    <p class="newsRightDesc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda dolor non nam possimus minima voluptatem.
+                    </p>
+
+                    <div class="newsRightBtn">
+                        <a href="#"><i> Read More</i></a>
+                        <i class="fa-solid fa-right-long"></i>
+                    </div>
+                </div>
+
+            </div>
+            <div class="newsBottom">
+                <div class="newsRight">
+                    <div class="postDate">
+                        <div class="newsDate">
+                            <i class="fa-solid fa-calendar-days"></i>
+                            <p>Posted 18 Dec 2025</p>
+                        </div>
+                        <div class="newsAdmin">
+                            <i class="fa-solid fa-user"></i>
+                            <p>Posted By : <span>Admin</span></p>
+                        </div>
+                    </div>
+                    <h3>Lorem ipsum dolor sit amet.</h3>
+                    <p class="newsRightDesc">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum est ratione magni, consectetur doloremque architecto!
+                    </p>
+
+                    <div class="newsRightBtn">
+                        <a href="#"><i> Read More</i></a>
+                        <i class="fa-solid fa-right-long"></i>
+                    </div>
+                </div>
+
+                <div class="newTopImg">
+                    <img src="images/images21 (1).jpg" alt="images21 (1).jpg">
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- ====  Kutbah part end ==== -->
+
+    <!-- ====  text slider part start ==== -->
+    <section id="txtSliderPart">
+        <div class="txtSliderOverly">
+
+            <div class="container">
+                <div class="txtSilder">
+                    <div class="txtSliderInfo">
+                        <i class="fa-solid fa-quote-left"></i>
+                        <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam dignissimos exercitationem facilis doloribus qui nihil.
+                        </p>
+                        <span>SA.shefer ham rom</span>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- ====  text slider part end ==== -->
+
+    <!-- ==== events part start ==== -->
+    <section id="eventsPart">
+        <div class="eventsHeader">
+            <h3>Upcoming Events</h3>
+            <img src="images/headingStripe.png" alt="headingStripe.png ">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea quo officia corporis quaerat labore dolorum.
+            </p>
+        </div>
+        <div class="eventsInfo">
+            <div class="eventsCard">
+                <div class="eventTimer">
+                    <div class="eventDate">
+                        <span class="eventTimes" id="date">15</span>
+                        <p class="eventTimeTxt">Days</p>
+                    </div>
+                    <div class="eventDate">
+                        <span class="eventTimes" id="hours">12</span>
+                        <p class="eventTimeTxt">Hours</p>
+                    </div>
+                    <div class="eventDate">
+                        <span class="eventTimes" id="minutes">34</span>
+                        <p class="eventTimeTxt">min</p>
+                    </div>
+                    <div class="eventDate">
+                        <span class="eventTimes" id="seconds">30</span>
+                        <p class="eventTimeTxt">Sec</p>
+                    </div>
+                </div>
+                <div class="eventDesc">
+                    <h3>Lorem ipsum dolor sit amet.</h3>
+                    <p>
+                        We aim to foster a deeper understanding and appreciation of Islamic architecture and culture
+                    </p>
+                    <div class="eventBtn">
+                        <a href="#"> Read More</a>
+                        <i class="fa-solid fa-right-long"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="eventsCard">
+                <div class="eventTimer">
+                    <div class="eventDate">
+                        <span class="eventTimes" id="date">00</span>
+                        <p class="eventTimeTxt">Days</p>
+                    </div>
+                    <div class="eventDate">
+                        <span class="eventTimes" id="hours">00</span>
+                        <p class="eventTimeTxt">Hours</p>
+                    </div>
+                    <div class="eventDate">
+                        <span class="eventTimes" id="minutes">00</span>
+                        <p class="eventTimeTxt">min</p>
+                    </div>
+                    <div class="eventDate">
+                        <span class="eventTimes" id="seconds">00</span>
+                        <p class="eventTimeTxt">Sec</p>
+                    </div>
+                </div>
+                <div class="eventDesc">
+                    <h3>Lorem ipsum dolor sit amet.</h3>
+                    <p>
+                        We aim to foster a deeper understanding and appreciation of Islamic architecture and culture
+                    </p>
+                    <div class="eventBtn">
+                        <a href="#"> Read More</a>
+                        <i class="fa-solid fa-right-long"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="eventsCard">
+                <div class="eventTimer">
+                    <div class="eventDate">
+                        <span class="eventTimes" id="date">00</span>
+                        <p class="eventTimeTxt">Days</p>
+                    </div>
+                    <div class="eventDate">
+                        <span class="eventTimes" id="hours">00</span>
+                        <p class="eventTimeTxt">Hours</p>
+                    </div>
+                    <div class="eventDate">
+                        <span class="eventTimes" id="minutes">00</span>
+                        <p class="eventTimeTxt">min</p>
+                    </div>
+                    <div class="eventDate">
+                        <span class="eventTimes" id="seconds">00</span>
+                        <p class="eventTimeTxt">Sec</p>
+                    </div>
+                </div>
+                <div class="eventDesc">
+                    <h3>Lorem ipsum dolor sit amet.</h3>
+                    <p>
+                        We aim to foster a deeper understanding and appreciation of Islamic architecture and culture
+                    </p>
+                    <div class="eventBtn">
+                        <a href="#"> Read More</a>
+                        <i class="fa-solid fa-right-long"></i>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!-- ==== events part end ==== -->
+
+    <!-- ==== donation part start ==== -->
+    
+
+    <!-- ====   part start ==== -->
+
+    <!-- ====   part end ==== -->
+
+    <!-- ====   part start ==== -->
+
+    <!-- ====   part end ==== -->
+
+    <!-- ====   part start ==== -->
+
+    <!-- ====   part end ==== -->
+
+    <!-- ====   part start ==== -->
+
+    <!-- ====   part end ==== -->
+
+    <!-- ====   part start ==== -->
+
+    <!-- ====   part end ==== -->
 
 
 
-  <script src="js/jquery-1.12.4.min.js"></script>
 
-  <script src="js/slick.min.js"></script>
 
-  <script src="js/bootstrap.bundle.min.js"></script>
-  <script src="js/script.js"></script>
+
+    <script src="js/jquery-1.12.4.min.js"></script>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/slick.min.js"></script>
+
+    <script src="js/script.js"></script>
 </body>
 
 </html>

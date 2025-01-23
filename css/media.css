@@ -1,160 +1,866 @@
 /* // Large devices (desktops, less than 1200px) */
-@media (max-width: 1199.98px) { }
+@media (max-width: 1199.98px) {}
 
 /* // Medium devices (tablets, less than 992px) */
-@media (max-width: 991.98px) { }
+@media (max-width: 991.98px) {
+    .container {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .navbar-brand img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+    }
+
+    .logotxt {
+        font-size: 24px;
+        line-height: 30px;
+        padding-top: 7px;
+    }
+
+    .navbar-toggler {
+        margin-right: 20px;
+    }
+
+    .herohead {
+        padding: 0 20px;
+    }
+
+    .herotxt {
+        padding: 20px 10px;
+    }
+
+    /* about secrion  */
+    .aboutflex {
+        flex-direction: row;
+    }
+
+    .aboutImage {
+        width: 100%;
+    }
+
+    .aboutTxt {
+        width: 100%;
+        padding-top: 30px;
+    }
+
+    /* infopart section  */
+
+    .infoHead {
+        padding: 0 50px;
+    }
+
+    .infoDesc {
+        padding: 0 50px;
+    }
+
+    .newsHeader p {
+        padding: 0 20px;
+    }
+
+    
+    /* who part  */
+    .whoheader {
+        margin-bottom: 30px;
+        margin-top: 50px;
+    }
+
+    .whoheader p {
+        padding: 0 20px;
+    }
+
+    .whoDesc {
+        flex-direction: row;
+    }
+
+    .whoDesRight {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .whoDesRight h3 {
+        padding-left: 0px;
+        margin-top: 50px;
+    }
+
+    .whoDesRight p {
+        padding-left: 0px;
+    }
+
+    .whoRightBtn {
+        margin-left: 0px;
+    }
+
+    .whoDesRight img {
+        margin-top: 20px;
+    }
+
+    /* left side  */
+    .whoDesLeft {
+        width: 100%;
+        margin-top: 230px;
+    }
+
+    .whoDesLeft h3 {
+        margin-top: 50px;
+    }
+
+    .whoDesLeft p {
+        padding-right: 30px;
+    }
+
+    .whoDesLeft img {
+        margin-top: 50px;
+    }
+
+    /* counter part  */
+    .middlecounter {
+        top: 670px;
+    }
+
+  /* kutbah part  */
+
+    .KutbahHeader {
+        margin-bottom: 30px;
+        margin-top: 50px;
+    }
+
+    .KutbahHeader p {
+        padding: 0 20px;
+    }
+
+
+
+    .kuthbahInfoone,
+    .kuthbahInfotwo {
+        width: 100%;
+    }
+
+    .kutbahDetails {
+        flex-direction: row;
+    }
+
+    .kuthbahRightInfo {
+        bottom: 0;
+        width: 100%;
+    }
+
+
+    /* Latest news  */
+
+    .newsHeader {
+        margin-bottom: 30px;
+        margin-top: 50px;
+    }
+
+    .newsHeader p {
+        padding: 0 20px;
+    }
+
+    .newsTop {
+        flex-direction: row;
+    }
+
+    .newsBottom {
+        margin: 50px 0;
+    }
+
+    .newTopImg {
+        width: 100%;
+    }
+
+    .newsRight {
+        width: 100%;
+    }
+    
+    /* txtslider part  */
+
+    .txtSliderInfo {
+        margin: 0 10px;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .txtSliderInfo p {
+        font-size: 20px;
+        line-height: 35px;
+    }
+
+    .txtSliderInfo span {
+        padding-bottom: 12px;
+        line-height: 20px;
+    }
+
+
+}
 
 /* // Small devices (landscape phones, less than 768px) */
-@media (max-width: 767.98px) { }
+@media (max-width: 767.98px) {
+    .container {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .navbar-brand img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .logotxt {
+        font-size: 24px;
+        line-height: 30px;
+        padding-top: 7px;
+    }
+
+    .navbar-toggler {
+        margin-right: 20px;
+    }
+
+    .herohead {
+        padding: 0 20px;
+    }
+
+    .herotxt {
+        padding: 20px 10px;
+    }
+
+    /* about secrion  */
+    .aboutflex {
+        flex-direction: column;
+    }
+
+    .aboutImage {
+        width: 100%;
+    }
+
+    .aboutTxt {
+        width: 100%;
+        padding-top: 50px;
+    }
+
+    .aboutDesc {
+        padding-right: 20px;
+    }
+
+    .aboutSecDes {
+        padding-right: 20px;
+        margin-bottom: 50px;
+
+    }
+
+    /* infopart section  */
+    .infoPartoverly {
+        padding: 80px 0;
+    }
+
+    .infoHead {
+        padding: 0 10px;
+    }
+
+    .infoDesc {
+        padding: 0 10px;
+    }
+
+    /* who part  */
+    .whoheader {
+        margin-bottom: 30px;
+        margin-top: 50px;
+    }
+
+    .whoheader p {
+        padding: 0 20px;
+    }
+
+    .whoDesc {
+        flex-direction: column-reverse;
+    }
+
+    .whoDesRight {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .whoDesRight h3 {
+        padding-left: 0px;
+        margin-top: 50px;
+    }
+
+    .whoDesRight p {
+        padding-left: 0px;
+    }
+
+    .whoRightBtn {
+        margin-left: 0px;
+    }
+
+    .whoDesRight img {
+        margin-top: 20px;
+    }
+
+    /* left side  */
+    .whoDesLeft {
+        width: 100%;
+        margin-top: 230px;
+    }
+
+    .whoDesLeft h3 {
+        margin-top: 50px;
+    }
+
+    .whoDesLeft p {
+        padding-right: 30px;
+    }
+
+    .whoDesLeft img {
+        margin-top: 50px;
+    }
+
+    /* counter part  */
+    .middlecounter {
+        top: 670px;
+    }
+
+  /* kutbah part  */
+
+    .KutbahHeader {
+        margin-bottom: 30px;
+        margin-top: 50px;
+    }
+
+    .KutbahHeader p {
+        padding: 0 20px;
+    }
+
+    .khutbahInf {
+        flex-direction: column;
+    }
+
+    .kuthbahInfoone,
+    .kuthbahInfotwo {
+        width: 100%;
+    }
+
+    .kutbahDetails {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .kuthbahRightInfo {
+        bottom: 0;
+    }
+
+
+    /* Latest news  */
+
+    .newsHeader {
+        margin-bottom: 30px;
+        margin-top: 50px;
+    }
+
+    .newsHeader p {
+        padding: 0 20px;
+    }
+
+    .newsTop {
+        flex-direction: column;
+    }
+
+    .newsBottom {
+        flex-direction: column-reverse;
+        margin: 50px 0;
+    }
+
+    .newTopImg {
+        width: 100%;
+    }
+
+    .newsRight {
+        width: 100%;
+    }
+    
+    /* txtslider part  */
+
+    .txtSliderInfo {
+        margin: 0 10px;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .txtSliderInfo p {
+        font-size: 20px;
+        line-height: 35px;
+    }
+
+    .txtSliderInfo span {
+        padding-bottom: 12px;
+        line-height: 20px;
+    }
+
+
+}
 
 /* // Extra small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) {
-
-    #header{
-        width: 55%;
-        background: none;
+@media (max-width: 576.98px) {
+    .container {
+        width: 90%;
+        margin: 0 auto;
     }
+
+    .navbar-brand img {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+    }
+
+    .logotxt {
+        font-size: 14px;
+        line-height: 20px;
+        padding-top: 7px;
+    }
+
     .navbar-toggler {
-    
-        /* color: #0deb32; */
-        color: #000;
-        background-color: #fff;
-        border: 1px solid #000 ;
-    }
-    .navbar-nav{
-        align-items: center;
-        background: #0f183e;
-    }
-    .mynavbattans {
-        margin-top: 30px;
-        margin-left: 155px;
+        margin-right: 20px;
     }
 
-    .leftsidebar {
-        position: fixed;
-        height: 100%;
-        /* z-index: 1; */
-        margin-left: -50px;
-    }
-    .uplineimg img {
-        height: 160px;
-        position: absolute;
-        /* margin-left: 69px;
-        margin-top: 439px; */
-    }
-
-    .laptopimg picture img {
-        visibility: hidden;
-    }
-
-    .divX {
-        position: absolute;
-        top: -190px;
-        left: 400px;
-    }
-    .divcircle {
-        top: -71px;
-        left: 508px;
-    }
-    .vivacotxt {
-        
-        left: 322px;
-    }
-    .circle {
-        
-        margin-left: 280px;
-    }
-
-    .rightsiteparttxt{
-        margin-top: 60px;
-    }
-
-    .experienceitem{
-        margin-left: -40px;
-    }
-
-    .serviceclinettitle h2 {
-        
-        padding: 10px 50px;
-    }
-    .projecttxt h2{
-        margin: 0;
-        margin-bottom: 30px;
-    }
-
-    .skill_middleline {
-        visibility: hidden;
-    }
-    .threedspare span {
-        top: 900px;
-    }
-    .threedspare picture img {
-        width: 563px;
-        margin-top: -251px;
-    }
-    .rightsimg {
-        top: -50px;
-    }
-    .testimonialltitle h2 {
-        padding: 40px 0px;
-    }
-
-    .testmonialtxt {
-        padding: 0;
-    }
-
-    .myvlogtitle h1 {
-        padding: 0;
-    }
-    .vlogimg {
-        flex-wrap: wrap;
-    }
-    .vlogimgone {
-        width: 550px;
-        border-radius: 10px;
-        margin-top: 50px;
-        margin-bottom: 50px;
-    }
-    .vlogimgone img{
-       width: 100%;
-    }
-    .inputarea span {
-        margin-left: 0;
-    }
-    .flower img {
-        visibility: hidden;
-    }
-    #contact h2 {
-        font-family: "DM Sans", serif;
-        color: #ffffff;
-        font-size: 80px;
-        line-height: 100px;
+    .herohead {
+        font-size: 25px;
         font-weight: 700;
-        padding-top: 15px;
-        margin: 0;
+        padding: 0 20px;
+        line-height: 30px;
+        padding-top: 50px;
     }
-    #contact .img img {
-        left: 357px !important;
+
+    .herotxt {
+        font-size: 14px;
+        padding: 20px 10px;
+        line-height: 20px;
+        text-align: center;
     }
-    #footer h2 {
-        font-size: 73px;
-        line-height: 85px;
-        padding: 0;
+
+    .date {
+        height: 85px;
+        width: 70px;
 
     }
-    .writemsg{
-        margin-top: 140px;
+
+    .times {
+        font-size: 30px;
+        font-weight: 700;
+        padding-left: 10px;
+        text-align: center;
     }
-    .behance::after {
-        width: 540px;
-        
+
+    .timetxt {
+        font-size: 18px;
+        font-weight: 400;
+        text-align: center;
     }
-    .dribbble::after{
-        width: 540px;
+
+    /* about secrion  */
+    .aboutflex {
+        flex-direction: column;
     }
-    .instagram::after{
-        width: 540px;
+
+    .aboutImage {
+        width: 100%;
     }
- }
+
+    .aboutTxt {
+        width: 100%;
+        padding-top: 50px;
+    }
+
+    .aboutDesc {
+        padding-right: 20px;
+    }
+
+    .aboutSecDes {
+        padding-right: 20px;
+        margin-bottom: 50px;
+
+    }
+
+    /* infopart section  */
+    .infoPartoverly {
+        padding: 80px 0;
+    }
+
+    .infoHead {
+        padding: 0 10px;
+    }
+
+    .infoDesc {
+        padding: 0 10px;
+    }
+
+    /* who part  */
+    .whoheader {
+        margin-bottom: 30px;
+        margin-top: 50px;
+    }
+
+    .whoheader p {
+        padding: 0 20px;
+    }
+
+    .whoDesc {
+        flex-direction: column-reverse;
+    }
+
+    .whoDesRight {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .whoDesRight h3 {
+        padding-left: 0px;
+        margin-top: 50px;
+    }
+
+    .whoDesRight p {
+        padding-left: 0px;
+    }
+
+    .whoRightBtn {
+        margin-left: 0px;
+    }
+
+    .whoDesRight img {
+        margin-top: 20px;
+    }
+
+    /* left side  */
+    .whoDesLeft {
+        width: 100%;
+        margin-top: 230px;
+    }
+
+    .whoDesLeft h3 {
+        margin-top: 50px;
+    }
+
+    .whoDesLeft p {
+        padding-right: 30px;
+    }
+
+    .whoDesLeft img {
+        margin-top: 50px;
+    }
+
+    /* counter part  */
+    .middlecounter {
+        top: 775px;
+    }
+
+  /* kutbah part  */
+
+  .KutbahHeader {
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+
+.KutbahHeader p {
+    padding: 0 20px;
+}
+
+.khutbahInf {
+    flex-direction: column;
+}
+
+.kuthbahInfoone,
+.kuthbahInfotwo {
+    width: 100%;
+}
+
+.kutbahDetails {
+    flex-direction: column;
+    gap: 0;
+}
+
+.kuthbahRightInfo {
+    bottom: 0;
+}
 
 
+    /* Latest news  */
+
+    .newsHeader {
+        margin-bottom: 30px;
+        margin-top: 50px;
+    }
+
+    .newsHeader p {
+        padding: 0 20px;
+    }
+
+    .newsTop {
+        flex-direction: column;
+    }
+
+    .newsBottom {
+        flex-direction: column-reverse;
+        margin: 50px 0;
+    }
+
+    .newTopImg {
+        width: 100%;
+    }
+
+    .newsRight {
+        width: 100%;
+    }
+    
+    /* txtslider part  */
+
+    .txtSliderInfo {
+        margin: 0 10px;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .txtSliderInfo p {
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .txtSliderInfo span {
+        padding-bottom: 9px;
+        line-height: 15px;
+    }
+
+}
+
+/* // Extra small devices (portrait phones, less than 400px) */
+@media (max-width: 400px) {
+
+    .container {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .navbar-brand img {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+    }
+
+    .logotxt {
+        font-size: 14px;
+        line-height: 20px;
+        padding-top: 7px;
+    }
+
+    .navbar-toggler {
+        margin-right: 20px;
+    }
+
+    .herohead {
+        font-size: 25px;
+        font-weight: 700;
+        padding: 0 20px;
+        line-height: 30px;
+        padding-top: 50px;
+    }
+
+    .herotxt {
+        font-size: 14px;
+        padding: 20px 10px;
+        line-height: 20px;
+        text-align: center;
+    }
+
+    .date {
+        height: 65px;
+        width: 50px;
+
+    }
+
+    .times {
+        font-size: 24px;
+        font-weight: 700;
+        padding-left: 10px;
+        text-align: center;
+    }
+
+    .timetxt {
+        font-size: 14px;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    /* about secrion  */
+    .aboutflex {
+        flex-direction: column;
+    }
+
+    .aboutImage {
+        width: 100%;
+    }
+
+    .aboutTxt {
+        width: 100%;
+        padding-top: 50px;
+    }
+
+    .aboutDesc {
+        padding-right: 20px;
+    }
+
+    .aboutSecDes {
+        padding-right: 20px;
+        margin-bottom: 50px;
+
+    }
+
+    /* infopart section  */
+    .infoPartoverly {
+        padding: 80px 0;
+    }
+
+    .infoHead {
+        padding: 0 10px;
+    }
+
+    .infoDesc {
+        padding: 0 10px;
+    }
+
+    /* who part  */
+    .whoheader {
+        margin-bottom: 30px;
+        margin-top: 50px;
+    }
+
+    .whoheader p {
+        padding: 0 20px;
+    }
+
+    .whoDesc {
+        flex-direction: column-reverse;
+    }
+
+    .whoDesRight {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .whoDesRight h3 {
+        padding-left: 0px;
+        margin-top: 50px;
+    }
+
+    .whoDesRight p {
+        padding-left: 0px;
+    }
+
+    .whoRightBtn {
+        margin-left: 0px;
+    }
+
+    .whoDesRight img {
+        margin-top: 20px;
+    }
+
+    /* left side  */
+    .whoDesLeft {
+        width: 100%;
+        margin-top: 230px;
+    }
+
+    .whoDesLeft h3 {
+        margin-top: 50px;
+    }
+
+    .whoDesLeft p {
+        padding-right: 30px;
+    }
+
+    .whoDesLeft img {
+        margin-top: 50px;
+    }
+
+    /* counter part  */
+    .middlecounter {
+        top: 775px;
+    }
+
+    /* kutbah part  */
+
+    .KutbahHeader {
+        margin-bottom: 30px;
+        margin-top: 50px;
+    }
+
+    .KutbahHeader p {
+        padding: 0 20px;
+    }
+
+    .khutbahInf {
+        flex-direction: column;
+    }
+
+    .kuthbahInfoone,
+    .kuthbahInfotwo {
+        width: 100%;
+    }
+
+    .kutbahDetails {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .kuthbahRightInfo {
+        bottom: 0;
+    }
+
+
+
+    /* Latest news  */
+    .newsHeader {
+        margin-bottom: 30px;
+        margin-top: 50px;
+    }
+
+    .newsHeader p {
+        padding: 0 20px;
+    }
+
+    .newsTop {
+        flex-direction: column;
+    }
+
+    .newsBottom {
+        flex-direction: column-reverse;
+        margin: 50px 0;
+    }
+
+    .newTopImg {
+        width: 100%;
+    }
+
+    .newsRight {
+        width: 100%;
+    }
+
+
+    /* txtslider part  */
+
+    .txtSliderInfo {
+        margin: 0 10px;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .txtSliderInfo p {
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .txtSliderInfo span {
+        padding-bottom: 9px;
+        line-height: 15px;
+    }
+
+}
